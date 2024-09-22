@@ -8,7 +8,6 @@ import java.util.List;
 public class SimulationFeuForetTest {
 
     // Vérifiez que la grille est initialisée avec toutes les cases à l'état intact
-    // (valeur 2).
     @Test
     public void testInitGrille() {
         GrilleForet grille = new GrilleForet(10, 10, 0.3);
@@ -38,7 +37,6 @@ public class SimulationFeuForetTest {
         assertEquals(0, grille.getCaseEtat(5, 5)); // Le feu doit s'éteindre
         assertEquals(1, grille.getCaseEtat(4, 5)); // Vérifiez si la case du haut prend feu
         assertEquals(1, grille.getCaseEtat(6, 5)); // Vérifiez si la case du bas prend feu
-        // Ajoutez des vérifications pour les cases gauche et droite
     }
 
 }
