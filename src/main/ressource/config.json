@@ -1,8 +1,8 @@
 {
     "hauteur": 10,
     "largeur": 10,
-    "probabilite": 0.3,
+    "probabilite": 0.7,
     "feuxInitiaux": [
-        [5, 5]
+        [5, 5],[3,2]
     ]
 }
