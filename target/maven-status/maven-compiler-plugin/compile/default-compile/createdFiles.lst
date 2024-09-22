@@ -1,0 +1,5 @@
+com\feusimulation\PropagationAleatoire.class
+com\feusimulation\PropagationStrategy.class
+com\feusimulation\ConfigLoader.class
+com\feusimulation\GrilleForet.class
+com\feusimulation\SimulationFeuForet.class
