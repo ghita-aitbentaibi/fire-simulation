@@ -7,7 +7,7 @@
 
 # Installation :
 - Clone the repository:  git clone https://github.com/your-username/fire-simulation.git
-                       cd fire-simulation
+                       then cd fire-simulation
 - Compile the project: Ensure you have Maven installed. Then run: mvn clean install
 
 # Usage :
